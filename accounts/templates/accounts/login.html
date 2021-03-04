@@ -14,13 +14,18 @@
         {% csrf_token %}
 
 
-        Username:
+        <label>
+            Username:
+            <br>
+            <input type="text" name="username"/>
+        </label>
         <br>
-        <input type="text" name="username" />
         <br>
-        Password:
-        <br>
-        <input type="password" name="password" />
+        <label>
+            Password:
+            <br>
+            <input type="password" name="password"/>
+        </label>
         <br>
         <br>
         <input type="submit" class="btn btn-primary" value="Log In">

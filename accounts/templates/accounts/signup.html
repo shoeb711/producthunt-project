@@ -13,18 +13,23 @@
 <form method="POST" action="{% url 'signup' %}">
 {% csrf_token %}
 
-
+    <label>
 Username:
     <br>
     <input type="text" name="username" />
+    </label>
     <br>
+    <label>
 Password:
     <br>
     <input type="password" name="password1" />
+    </label>
     <br>
+    <label>
 Confirm Password:
     <br>
     <input type="password" name="password2" />
+    </label>
     <br>
     <br>
     <input type="submit" class="btn btn-primary" value="Sign Up">
